@@ -1,0 +1,90 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  background-color: #f7f6f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  background: #ece7e2;
+  padding: 30px;
+  width: 30%;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact p,
+.contact a {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+.education, .languages {
+  margin-top: 30px;
+}
+
+.main-content {
+  padding: 40px;
+  width: 70%;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.skills {
+  display: flex;
+  gap: 40px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 6px;
+}
